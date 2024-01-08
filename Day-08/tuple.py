@@ -27,3 +27,9 @@ AttributeError: 'tuple' object has no attribute 'append'
 ('sayantan_demo_bucket', 'aj_demo_bucket', 'jim_demo_bucket', 'john_demo_bucket')
 
 '''
+
+
+# my_tuple = (1, 2, 'apple', 'banana')
+# print(type(my_tuple))
+
+# my_tuple.append("Mango")
