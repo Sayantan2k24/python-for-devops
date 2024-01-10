@@ -45,10 +45,10 @@ carlory
 # print(range(len(response.json()))) # will get a sequence --> range(0,30)  
 
 
-# print(response.json()[0]["user"]) now use it in a for loop
+# print(response.json()[0]["user"]) now use it in a for loop, change 0 with i
     
 '''
-print(response.json()[0]["user"]) will give this below output
+print(response.json()[0]["user"]) will give like this below output
 
 $ python test3.py 
 {'login': 'danwinship', 'id': 96040, 'node_id': 'MDQ6VXNlcjk2MDQw', 'avatar_url': 'https://avatars.githubusercontent.com/u/96040?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/danwinship', 'html_url': 'https://github.com/danwinship', 'followers_url': 
@@ -56,10 +56,10 @@ $ python test3.py
 
 '''
 
-# print(response.json()[0]["user"]["login"]) now use it in a for loop
+# print(response.json()[0]["user"]["login"]) now use it in a for loop, change 0 with i
 
 '''
-print(response.json()[0]["user"]["login"]) will give this output
+print(response.json()[0]["user"]["login"]) will give  output like this
 
 danwinship
 '''
