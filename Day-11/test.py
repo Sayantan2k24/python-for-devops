@@ -15,3 +15,12 @@ print(student_info["name"])
 # print(student_info[1])
 
 
+# list_of_dicts = [
+#     {}, #dictionary 1
+#     {}, # 2
+#     {}  # 3
+# ] 
+
+# print(list_of_dicts[2]) # to retireve the 2nd Dictionary
+
+
